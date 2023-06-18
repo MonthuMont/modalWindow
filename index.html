@@ -1,11 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>modalWindow</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <div class="modalBlocks">
+          <button class="modalBlocks__block window1">
+            <span class="text">Модальное окно 1</span>
+          </button>
+          <button class="modalBlocks__block window2">
+            <span class="text">Модальное окно 2</span>
+          </button>
+          <button class="modalBlocks__block window3">
+            <span class="text">Модальное окно 3</span>
+          </button>
+        </div>
+        <div class="modal-window hidden">
+          <button class="close-modal-window">&times;</button>
+          <h1 class="title">Модальное окно 1</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam harum
+            voluptatem consequatur? Vero nesciunt sunt, quos facere, quam enim
+            numquam unde doloremque saepe ab alias iusto animi adipisci, ratione
+            sint?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Veniam, incidunt nobis maxime temporibus fuga cupiditate eos
+            deleniti quam aut impedit exercitationem minus in modi perferendis
+            quia, voluptas suscipit iusto non!
+          </p>
+        </div>
+        <div class="modal-window hidden">
+            <button class="close-modal-window">&times;</button>
+            <h1 class="title">Модальное окно 2</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam harum
+              voluptatem consequatur? Vero nesciunt sunt, quos facere, quam enim
+              numquam unde doloremque saepe ab alias iusto animi adipisci, ratione
+              sint?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veniam, incidunt nobis maxime temporibus fuga cupiditate eos
+              deleniti quam aut impedit exercitationem minus in modi perferendis
+              quia, voluptas suscipit iusto non!
+            </p>
+          </div>
+          <div class="modal-window hidden">
+            <button class="close-modal-window">&times;</button>
+            <h1 class="title">Модальное окно 3</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam harum
+              voluptatem consequatur? Vero nesciunt sunt, quos facere, quam enim
+              numquam unde doloremque saepe ab alias iusto animi adipisci, ratione
+              sint?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veniam, incidunt nobis maxime temporibus fuga cupiditate eos
+              deleniti quam aut impedit exercitationem minus in modi perferendis
+              quia, voluptas suscipit iusto non!
+            </p>
+          </div>
+      </div>
+      <div class="overlay hidden"></div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
 </html>
